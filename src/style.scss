@@ -1,5 +1,100 @@
-$brand-color: fuchsia;
+$sidebar-width: 16rem;
 
-h1 {
-  color: $brand-color;
+body {
+  background: #f0f0f3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.heading {
+  width: $sidebar-width;
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+
+  input,
+  button {
+    align-self: center;
+  }
+
+  button {
+    margin-left: 1rem;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: $sidebar-width;
+  padding: 0 1rem 1rem 1rem;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.categories {
+  margin-top: 0;
+}
+
+.main {
+  flex: 1;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-heading {
+  margin: 0;
+}
+
+.main-controls {
+  select,
+  button {
+    align-self: center;
+    margin-left: 1rem;
+  }
+}
+
+.main-controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  height: 15rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.card-new {
+  background: #4262ff;
+  color: white;
 }
