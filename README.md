@@ -9,3 +9,8 @@ Let's go back to basics and learn CSS layouts! We'll be recreating the "All boar
 ## List view
 
 ![List view](screens/list.png)
+
+## Links
+
+- [Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
